@@ -1,6 +1,6 @@
-idade = int
+def calcular_idade():
+    idade = int
 
-try:
     idade = int(input("digite sua Idade: "))
 
     if 0 <= idade < 11 :
@@ -16,6 +16,9 @@ try:
         print('Classificação adulto')
     else:
         print('O valor digitado é invalido')
+
+try: 
+    calcular_idade()
 
 except:
     print('Espera-se que o valor digitado seja um numero entre 0 a 150')
